@@ -28,14 +28,11 @@ These are the technologies that will be used in the project
 ## Database Design
 An overview of the database
 ---
-Entity | Description | Fields 
----
-Users | The users registered on the website | - Name  - PhoneNumber  - Age
----
-Properties | The list of properties registered on the site | - Locattion  - Size  - Price
----
-Bookings | A register of bookings | - Property  - Date  - Amount
----
+| Entity       | Description                                   | Fields                                        | 
+|--------------|-----------------------------------------------|-----------------------------------------------|
+| Users        | The users registered on the website           | Name, PhoneNumber, Age                        |
+| Properties   | The list of properties registered on the site | Locattion, Size, Price                        |
+| Bookings     | A register of bookings                        | Property. Date, Amount                        |
 
 ## Feature Breakdown
 - Property management
@@ -78,17 +75,14 @@ Track system behavior and detect suspicious activity
 ## CI/CD Pipeline
 A set of practices that automate the process of building, testing, and deploying code.
 ### Tools that can be used
-Purpose | Tool example
----
-Version control | Git + Github
----
-CI/CD Automation | - GitHub Actions  - GitLab CI  - CircleCI  - Jenkins
----
-Deployment | - Render  - Heroku  - Vercel  - Netlify  - Docker+VPS
----
-Testing | pytest  - Django Test Framework  - Jest
----
-Containerization | Docker
+| Purpose           | Tool example                                         |
+|-------------------|------------------------------------------------------|
+| Version control   | Git + Github                                         |
+| CI/CD Automation  | GitHub Actions, GitLab CI, CircleCI, Jenkins         |
+| Deployment        | Render, Heroku, Vercel, Netlify, Docker+VPS          |
+| Testing           | pytest,  Django Test Framework, Jest                 |
+| Containerization  | Docker                                               |
+
 ---
 
 
